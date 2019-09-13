@@ -1,0 +1,7 @@
+elasticsearch:
+  hosts:
+    - http://my-es:80
+  connectTimeout: 10000
+  connectionRequestTimeout: 10000
+  socketTimeout: 10000
+  maxRetryTimeoutMillis: 60000
